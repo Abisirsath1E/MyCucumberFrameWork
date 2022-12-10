@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 29.777 s <<< FAILURE! - in runner.TestRunner
+validate User successfully logged in application(login to ecommerce application #2)  Time elapsed: 0.015 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...emo.nopcommerce.com/[login?returnurl=%2Fadmin%2F]> but was:<...emo.nopcommerce.com/[admin/]>
+
+login to ecommerce application #2  Time elapsed: 0.662 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...emo.nopcommerce.com/[login?returnurl=%2Fadmin%2F]> but was:<...emo.nopcommerce.com/[admin/]>
+
